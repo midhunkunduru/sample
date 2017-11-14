@@ -8,6 +8,7 @@ node("master")
     stage("Build")
     {
         echo "Sample build"
+        build 'multibranch_1'
     }
 
 }
