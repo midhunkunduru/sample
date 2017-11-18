@@ -11,7 +11,7 @@ node("master")
  // ])
 //])  
   echo "Sample checkout project"
-    build job: 'parametertest/master', parameters: [string(name: 'Version', value: '1.1'), string(name: 'Application', value: 'html')]
+    
 }
     
     stage("Build")
